@@ -3,7 +3,7 @@ Script sends unreaded letters from gmail to telegram.
 
 Структура проекта:
 
-/mail_forwarder/
+/gmail_to_telegram/
 |-- main.py         # Основной файл с кодом
 |-- .env            # Файл для хранения ваших секретных данных
 |-- requirements.txt # (Опционально) Файл для списка зависимостей
@@ -23,7 +23,7 @@ Script sends unreaded letters from gmail to telegram.
 Конфигурируемость: Интервал проверки теперь также задается в .env файле, что позволяет легко его менять без редактирования кода.
 
 !!! Как запустить:
-1. Откройте папку mail_forwarder.
+1. Откройте папку gmail_to_telegram
 2. Откройте терминал в этой папке.
 3. Установите библиотеки: pip install pytelegrambotapi python-dotenv html2text или запустите pip install -r requirements.txt
 4. Запустите бота: python main.py
