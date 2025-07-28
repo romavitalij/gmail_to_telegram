@@ -23,6 +23,7 @@ Script sends unreaded letters from gmail to telegram.
 Конфигурируемость: Интервал проверки теперь также задается в .env файле, что позволяет легко его менять без редактирования кода.
 
 !!! Как запустить:
+
 1. Откройте папку gmail_to_telegram
 2. Откройте терминал в этой папке.
 3. Установите библиотеки: pip install pytelegrambotapi python-dotenv html2text или запустите pip install -r requirements.txt
